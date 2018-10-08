@@ -1,0 +1,41 @@
+body{
+    background: url('1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Courier New, Courier, monospace;
+}
+.nav-list{
+    float: right;
+    list-style: none;
+}
+.nav-list li{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 100px;
+    color: #000;
+    transition-delay: 100ms;
+    transition-property: all;
+    margin-right: 30px;
+}
+.nav-list li:hover{
+    background-color:#000;
+    color: #FFF;   
+}
+.nav-list a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-list a:hover{
+    background-color: #000;
+    color:#FFF;
+    border-radius: 100px;
+}
+.unordered-list{
+    float: right;
+    align-content:flex-end;
+    text-align: right;
+}
+input{
+    border-radius: 20px;
+}
+
